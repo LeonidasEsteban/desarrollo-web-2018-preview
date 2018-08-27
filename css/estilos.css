@@ -133,6 +133,9 @@ h1 span {
   display: flex;
   flex-wrap: wrap;
 }
+.event-description {
+  height: 70px;
+}
 
 .event-url {
   border-width: 1px;
