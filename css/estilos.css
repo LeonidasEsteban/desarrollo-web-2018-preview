@@ -1,4 +1,239 @@
+/* font-family: 'Source Sans Pro', sans-serif; */
+/* font-family: 'Fjalla One', sans-serif; */
+/* gris oscuro = #1d252c */
+/* gris claro = #626262 */
+/* background gris = #1b2127 */
 body {
-  background: lightgray;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* background: lightgray; */
+  color: #1d252c;
+}
+figure {
+  margin: 0;
+}
+img {
+  object-fit: cover;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
 }
 
+h1 {
+  font-size: 40px;
+  letter-spacing: -0.2px;
+  line-height: 150%;
+  color: white;
+}
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h3 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 32px;
+}
+h1 span {
+  color: #026fff;
+}
+.header {
+  background: #1b2127;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 74px;
+}
+.menu {
+  height: inherit;
+}
+.menu ul{
+  height: inherit;
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+.menu li{
+  height: inherit;
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  height: 300px;
+  background-color: #1b2127; 
+  /* background-image: url(../images/hero.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 50% auto; */
+  /* background-position-x: right; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.portfolio {
+  /* background-color: white; */
+  padding: 20px;
+}
+.project {
+  display: flex;
+}
+.project-description {
+  width: 500px;
+}
+.project-tech {
+  color: #626262;
+}
+.project small,
+.project a {
+  color: #626262;
+}
+.project strong {
+  color: #1d252c;
+  font-weight: bold;
+  font-family: 'Fjalla One', sans-serif;
+}
+.project p {
+  font-size: 18px;
+}
+
+.event {
+  width: 480px;
+  margin: 10px;
+}
+.event-detail {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -40px;
+  background-color: white;
+  padding: 20px;
+  position: relative;
+}
+.event-title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-url {
+  border-width: 1px;
+  border-color: #026fff;
+  color: #026fff;
+  padding: 5px 0;
+  border-radius: 20px;
+  border-style: solid;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contact {
+  background-color: #0064ff;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:200px;  
+}
+.footer {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer p img{
+  vertical-align: middle;
+}
+.footer a {
+  color: white;
+}
+
+.social {
+  display: flex;
+  margin-right: 50px;
+}
+
+.social-link {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.social-link.twitter {
+  background-image: url(../images/twitter.svg);
+  background-size: 50px 50px;
+}
+.social-link.facebook {
+  background-image: url(../images/facebook.svg);
+  background-size: 50px 50px;
+}
+.social-link.github {
+  background-image: url(../images/github.svg);
+  background-size: 50px 50px;
+}
+.social-link.instagram {
+  background-image: url(../images/instagram.svg);
+  background-size: 50px 50px;
+}
+
+.email {
+  margin-left: 50px;
+}
+.email input {
+  padding: 10px 20px;
+  padding-left: 25px;
+  background-image: url(../images/envelope.svg);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.email button {
+  width: 150px;
+  display: block;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: white;
+  padding: 5px 0;
+}
+
+
+.container {
+  width: 1000px;
+  display: inherit;
+  align-items: inherit;
+  height: inherit;
+  margin: 0 auto;
+  flex-shrink: 0;
+  justify-content: inherit;
+  flex-wrap: inherit;
+}
